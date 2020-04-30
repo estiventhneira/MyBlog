@@ -50,6 +50,23 @@ ul {
   list-style: none;
 }
 
+.sobre-mi-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  height: 70px;
+  background-color: white;
+  color: black;
+  font-size: 0.9em;
+}
+
+.sobre-mi-header a{
+  font-family: "Roboto mono", sans-serif;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
 .main-img {
   position: absolute;
 }
@@ -94,4 +111,19 @@ h1 {
 .blog-destacado {
   background-color: #ccd1d9;
   margin: 80px auto 0 auto;
+}
+
+.main-img img{
+  width: 100%;
+}
+
+
+
+@media (max-width: 850px) {
+  .main-img {
+    width: max-content;
+    height: 100%;
+    object-position: center;
+  }
+
 }
